@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #faf4f4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.custom-bg {
+  background-color: peachpuff;
+}
+
+.text-color {
+  color: black;
+}
+
+.border-color {
+  border-color: black;
+}
+
+.custom-bg-text {
+  color: #000000;
+}
+
+.bg-color {
+  background-color: #a4e5e0;
+}
+
+.text-color-second {
+  color: #0c6170;
+}
+
+.rounded-card {
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px #00000033;
+}
+
+.form-card {
+  padding: 0.2em 0.2em 0.2em;
+  border-radius: 1em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Adjust the values here */
+}
+
+.job-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: scale(
+    1.02
+  ); /* You can adjust the scale factor for the desired hover effect */
+}
+
+.profile-photo {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border: 3px solid #eb455f; /* Add a border with white color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+  border-radius: 50%; /* Ensure it stays circular */
+}
+.carousel {
+  max-width: 1280px; /* Restricts the container width */
+  height: 579px; /* Sets the container height */
+  margin: 20px auto; /* Adds vertical spacing from the navbar and centers the carousel */
+}
+
+.carousel img {
+  width: 1680px; /* Fixed width */
+  height: 579px; /* Fixed height */
+  object-fit: contain; /* Ensures the full image is visible with padding */
+  background-color: #eceeef; /* Optional: Adds a background color for padding */
+}
+
+.carousel-inner {
+  width: 100%; /* Matches the container width */
+  height: 100%; /* Matches the container height */
+}
+
+.carousel-item img {
+  width: 1680px; /* Image width matches the container */
+  height: 579px; /* Image height matches the container */
+  object-fit: contain; /* Ensures the image is fully visible */
+}
